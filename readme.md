@@ -3,15 +3,16 @@
 
 ## api
 
-
 Props属性如下
 
 props | 说明 | 类型 | 默认值 | 备选 
 ------------ |--------------- | ------------- | ------------- | -------------
 offset | 页码 | number | 0 |
 totalPage | 总页数 | number | -1 |
-mySize | 大小 | string | normal | large\small\normal
-myStyle | 风格 | string | omitted | fullsize\omitted\compressed
+mySize | 大小 | string | normal | large\small\normal |
+myStyle | 风格 | string | omitted | fullsize\omitted\compressed |
 maxSize | omitted风格下显示格数限制 | number | 10 |
-className | 额外类 | string | ‘’ |
+className | 自定义类名 | string | ‘’ |
+update | 回调函数 | func | () |
+prefixName | 前缀 | string | cat |
 
