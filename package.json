@@ -1,22 +1,27 @@
 {
   "name": "cat-pagination",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/pagination.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node node_modules/.bin/cat-server",
+    "build": "node node_modules/.bin/build"
   },
   "author": "yanweiqing",
   "license": "MIT",
   "files": [
-    "src/",
     "assets/",
+    "dist/",
     "examples/",
-    "dist/"
+    "src/"
   ],
   "dependencies": {
+    "cat-util": "^1.0.8",
     "myui-core": "*",
     "react": "^0.14.x",
     "react-dom": "^0.14.x"
+  },
+  "devDependencies": {
+    "regether-rc-server": "*"
   }
 }

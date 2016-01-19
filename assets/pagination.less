@@ -55,7 +55,7 @@
     > span {
       position: relative;
       float: left; // Collapse white-space
-      padding: @padding-base-vertical*2 @padding-base-horizontal/2;
+      padding: @padding-base-vertical*2 @padding-base-horizontal;
       min-width: 42px;
       text-align: center;
       line-height: @line-height-base;
@@ -74,7 +74,7 @@
         }
     }
     input {
-      padding: @padding-base-vertical*2 @padding-base-horizontal/2;
+      padding: @padding-base-vertical*2 @padding-base-horizontal;
       border: 1px solid @pagination-border;
       width: 60px;
     }
@@ -143,7 +143,7 @@
 
 // Large
 .@{prefixName}-pagination-lg {
-  .pagination-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large;  @width-large);
+  .pagination-size(@padding-large-vertical; @padding-large-horizontal*2; @font-size-large; @line-height-large;  @width-large);
 }
 
 // Small
