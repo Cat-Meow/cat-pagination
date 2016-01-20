@@ -73,7 +73,7 @@ class Pagination extends Component {
     if (totalPage === -1 || myStyle === 'compressed') {
     // 压缩版
       list.push({
-        content: `${(offset + 1).toString()}${totalPage !== 0 ? '/' + totalPage : ''}`,
+        content: `${(offset + 1).toString()}${totalPage !== -1 ? '/' + totalPage : ''}`,
         target: offset
       });
     } else if (myStyle === 'fullsize' || totalPage <= maxSize) {
