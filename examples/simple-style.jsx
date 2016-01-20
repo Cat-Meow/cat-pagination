@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Pagination from '../src/pagination.js';
 import '../assets/index.less';
 
