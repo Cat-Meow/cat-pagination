@@ -1,10 +1,10 @@
 {
-  "name": "cat-pagination",
-  "version": "1.0.2",
+  "name": "rs-pagination",
+  "version": "0.1.0",
   "description": "",
   "main": "./dist/pagination.js",
   "scripts": {
-    "dev": "node node_modules/.bin/cat-server",
+    "dev": "node node_modules/.bin/rs-server",
     "pre-publish": "node node_modules/.bin/pre-publish"
   },
   "author": "yanweiqing",
@@ -16,12 +16,12 @@
     "src/"
   ],
   "dependencies": {
-    "cat-util": "^1.0.8",
-    "myui-core": "^0.1.0",
-    "react": "^0.14.x",
-    "react-dom": "^0.14.x"
+    "rs-util": "^0.1.x",
+    "rs-ui-core": "^0.1.x",
+    "react": "^0.14.x"
   },
   "devDependencies": {
-    "regether-rc-server": "*"
+    "rs-server": "^0.1.x",
+    "react-dom": "^0.14.x"
   }
 }

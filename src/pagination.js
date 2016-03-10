@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Pager from './pager';
-import { createFragment } from 'cat-util';
+import { createFragment } from 'rs-util';
 
 const SIZES = {
   large: 'lg',
@@ -27,7 +27,7 @@ class Pagination extends Component {
     myStyle: 'omitted',     //fullsize, omitted, compressed
     maxSize: 10,
     className: '',
-    prefixName: 'cat'
+    prefixName: 'salt'
   }
 
   state = {

@@ -1,4 +1,4 @@
-# Cat-Pagination
+# React Salt - Pagination
 适用于分页形式的列表，主要配合table使用，可配置外形大小、自定义类，根据需求以及是否具有总页码判别显示风格。
 
 ## api
@@ -14,5 +14,5 @@ myStyle | 风格 | string | omitted | fullsize\omitted\compressed |
 maxSize | omitted风格下显示格数限制 | number | 10 |
 className | 自定义类名 | string | ‘’ |
 update | 回调函数 | func | () |
-prefixName | 前缀 | string | cat |
+prefixName | 前缀 | string | salt |
 
