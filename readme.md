@@ -1,7 +1,7 @@
 # React Salt - Pagination
 适用于分页形式的列表，主要配合table使用，可配置外形大小、自定义类，根据需求以及是否具有总页码判别显示风格。
 
-## api
+## API
 
 Props属性如下
 

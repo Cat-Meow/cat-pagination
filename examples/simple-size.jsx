@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Pagination from '../src/pagination.js';
-import '../assets/index.less';
 
 export default class Example extends Component {
   state = {
